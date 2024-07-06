@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGitSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import {Link} from 'react-router-dom';
 
 export default function Info() {
     const afterClick = "https://www.linkedin.com/in/ramiro-renteria-24bba520/";
@@ -11,14 +12,15 @@ export default function Info() {
         <div className="profile-info">
             <h1>Ramiro Renteria</h1>
             <h4>Bay Valley Tech Web Developer Intern</h4>
-            <h5>ramis28@yahoo.com</h5>
-            <div className="profile-btns">
+            <h5><Link to='/contact' className='contact--edit'>Contact</Link></h5>
+            <hr></hr>
+            {/* <div className="profile-btns">
                 <button type="button" id="button1" onClick={() => window.open(myGitHub, '_blank')}><FontAwesomeIcon icon={faGitSquare}></FontAwesomeIcon>&nbsp;GitHub</button>
                 <button type="button" id="button2" onClick={() => window.open(afterClick, '_blank')}><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>&nbsp;LinkedIn</button>
-            </div>
+            </div> */}
             <div className="myDetails">
                 <h2>About</h2>
-                <p>Welcome to my website! I'm a passionate Front End developer with a deep fascination for web development. 
+                <p>Welcome to my website! I'm a passionate Full Stack developer with a deep fascination for web development. 
                     I thrive on staying up-to-date with the latest technologies and best practices in the ever-evolving world of web development. 
                     Exploring new horizons and embracing continuous learning are integral parts of my journey. 
                     I'm excited to showcase my skills and share my experiences as I strive to create captivating and user-friendly web experiences. 

@@ -63,15 +63,19 @@ img {
 }
 
 h1 {
-  color: white;
+  color: orange;
 }
 
 h4 {
   color: white;
 }
 
-h5 {
-  color: white;
+/* h5 {
+  color: orange;
+} */
+
+.contact--edit {
+  color: orange;
 }
 
 h2 {
@@ -98,7 +102,18 @@ p {
   height: 5em; /* changes the height of the container */
   padding: none;
   border-radius: 20px;
-  box-shadow: 0 20px 30px 10px rgba(58, 57, 57, 0.5);
+  box-shadow: 0 20px 30px 10px rgba(172, 146, 63, 0.5);
+}
+
+.container {
+  margin: 15px;
+}
+
+.back-to-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orange;
 }
 
 .icon-style {
@@ -126,6 +141,14 @@ color: #5093E2;
   align-self: flex-start;
 }
 
+h2 {
+  color: orange;
+}
+
+hr {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
