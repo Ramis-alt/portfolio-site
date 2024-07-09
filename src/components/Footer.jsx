@@ -3,9 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGitSquare, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
+
 export default function Footer() {
     return (
-        <div className='container'>
+        <div className='footer--container'>
             <footer className='footer'>
             <a href="https://github.com/Ramis-alt" target={'_blank'}><FontAwesomeIcon icon={faGitSquare} className="icon-style git-hub"></FontAwesomeIcon></a>
             <a href="https://twitter.com/IAmRamiroR" target={'_blank'}><FontAwesomeIcon icon={faTwitter} className="icon-style twi-tter"></FontAwesomeIcon></a>

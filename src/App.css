@@ -4,6 +4,15 @@
   text-align: center;
 }
 
+body, #root {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  min-height: 100vh; /* Make sure the body takes at least the full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
