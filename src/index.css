@@ -164,10 +164,11 @@ hr {
   min-width: 30vw;
   max-width: 60%; 
   flex-direction: column;
-  background-color: aliceblue;
+  background-color: #161619;
   border-radius: 2vh;
   padding: 20px;
   box-shadow: 0 20px 30px 10px rgba(255, 255, 255, 0.2);
+  color: white;
 }
 
 .form-row {
