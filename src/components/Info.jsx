@@ -14,10 +14,6 @@ export default function Info() {
             <h4>Bay Valley Tech Web Developer Intern</h4>
             <h5><Link to='/contact' className='contact--edit'>Contact</Link></h5>
             <hr></hr>
-            {/* <div className="profile-btns">
-                <button type="button" id="button1" onClick={() => window.open(myGitHub, '_blank')}><FontAwesomeIcon icon={faGitSquare}></FontAwesomeIcon>&nbsp;GitHub</button>
-                <button type="button" id="button2" onClick={() => window.open(afterClick, '_blank')}><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>&nbsp;LinkedIn</button>
-            </div> */}
             <div className="myDetails">
                 <h2>About</h2>
                 <p>Welcome to my website! I'm a passionate Full Stack developer with a deep fascination for web development. 

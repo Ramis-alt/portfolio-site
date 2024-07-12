@@ -5,6 +5,14 @@ import { faGitSquare, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg
 
 
 export default function Footer() {
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
+
     return (
         <div className='footer--container'>
             <footer className='footer'>
@@ -12,7 +20,7 @@ export default function Footer() {
             <a href="https://twitter.com/IAmRamiroR" target={'_blank'}><FontAwesomeIcon icon={faTwitter} className="icon-style twi-tter"></FontAwesomeIcon></a>
             <a href="https://www.linkedin.com/in/ramiro-renteria-24bba520/" target={'_blank'}><FontAwesomeIcon icon={faLinkedin} className="icon-style linked-in"></FontAwesomeIcon></a>
             </footer>
-            <p className='back-to-top'>Back to Top</p>
+            <p className='back-to-top' onClick={scrollToTop} style={{cursor:'pointer'}}>Back to Top</p>
         </div>
     )
 }
