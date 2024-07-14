@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com'
 
 const Contact = () => {
   const form = React.useRef();
-  const recaptchaRef = React.useRef();
+  // const recaptchaRef = React.useRef();
 
   const [userEmail, setUserEmail] = React.useState('');
   const [userName, setUserName] = React.useState('');
@@ -25,16 +25,12 @@ const Contact = () => {
     //   return;
     // }
 
-    // if (response.status === 200) {
-    //   setValidationMsg('Your message has been sent successfully.');
-    // }
-
     const formElements = e.currentTarget.elements;
     const honeypot = formElements.honeypot.value;
     if (honeypot) return;
 
 
-    emailjs.sendForm('service_wwts3qb', 'template_7uokeqb', form.current, 'c4e4LyNVoc5nwpZOV')
+    emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, form.current, import.meta.env.VITE_EMAILJS_USER_ID)
       .then(
         (result) => {
           console.log('SUCCESS!', result.text);
