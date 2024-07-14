@@ -162,13 +162,20 @@ hr {
   align-content: center;
   min-height: 40vh;
   min-width: 30vw;
-  max-width: 60%; 
+  max-width: 500px; 
   flex-direction: column;
   background-color: #161619;
   border-radius: 2vh;
   padding: 20px;
   box-shadow: 0 20px 30px 10px rgba(255, 255, 255, 0.2);
   color: white;
+  margin: auto;
+}
+
+@media (max-width: 400px) {
+  .form--container--styling {
+    padding: 10px;
+  }
 }
 
 .form-row {
@@ -184,5 +191,6 @@ hr {
 
 .form-row input,
 .form-row textarea {
-  flex-grow: 1; 
+  flex-grow: 1;
+  width: 100%; 
 }
