@@ -50,8 +50,8 @@ const Contact = () => {
 
   return (
     <div className="form--container--styling">
-      {validationMsg && <div className="validation-message">{validationMsg}</div>}
-      <h2>Get in Touch</h2>
+      {validationMsg && <div className="validation-message" aria-live='polite'>{validationMsg}</div>}
+      <h2>Get in touch</h2>
       <form ref={form} onSubmit={sendEmail}>
         <div className="form-row">
           <label htmlFor="user_name">Name</label>
