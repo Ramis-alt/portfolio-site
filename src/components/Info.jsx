@@ -6,7 +6,7 @@ export default function Info() {
     const myGitHub = "https://github.com/Ramis-alt";
     return (
         <main className="main--body">
-            <img src='images/ProfImage1_copy.png' alt="Ramiro Renteria, smiling." />
+            <img src='images/IMG_1755.png' alt="Ramiro Renteria, smiling." />
             <div className="profile-info">
                 <h1>Ramiro Renteria</h1>
                 <h4>Bay Valley Tech Web Developer Intern</h4>
