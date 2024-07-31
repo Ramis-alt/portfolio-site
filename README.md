@@ -7,8 +7,6 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
-- [Usage](#usage)
-- [Contact](#contact)
 
 ## About
 This portfolio website showcases my work as a web developer. It includes various projects (GitHub) and information about my skills and experience.
