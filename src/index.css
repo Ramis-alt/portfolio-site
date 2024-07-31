@@ -5,12 +5,10 @@ body {
 }
 
 body {
-  /* background-image: url('/images/whiteTech.jpg'); Replace with your image path */
   background-color: beige;
   background-size: cover; /* Adjusts the image to cover the entire body */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: center; /* Centers the image */
-  /* background-color: #23252C; Fallback color in case the image doesn't load */
 }
 
 img {
@@ -27,7 +25,6 @@ img {
   border: none;
   margin-top: 60px; 
   border-radius: 20px;
-  /* background-image: url('/images/tiles.webp'); */
   background-color: #161619;
   box-shadow: 0 20px 30px 10px rgba(4, 4, 4, 0.7);
 }
@@ -231,27 +228,3 @@ ul {
   cursor: pointer;
 }
 
-/* @keyframes gradient-border {
-  0% {
-    border-image-source: linear-gradient(90deg, green, black);
-  }
-  25% {
-    border-image-source: linear-gradient(180deg, green, black);
-  }
-  50% {
-    border-image-source: linear-gradient(270deg, green, black);
-  }
-  75% {
-    border-image-source: linear-gradient(360deg, green, black);
-  }
-  100% {
-    border-image-source: linear-gradient(450deg, green, black);
-  }
-}
-
-.container {
-  border: 10px solid;
-  border-radius: 15px;
-  border-image-slice: 1;
-  animation: gradient-border 5s linear infinite;
-} */
