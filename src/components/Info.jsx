@@ -9,7 +9,7 @@ export default function Info() {
             <img src='images/IMG_1755.png' alt="Ramiro Renteria, smiling." />
             <div className="profile-info">
                 <h1>Ramiro Renteria</h1>
-                <h4>Bay Valley Tech Web Developer Intern</h4>
+                <h4>Full Stack Web Developer</h4>
                 <h5><Link to='/contact' className='contact--edit' aria-label="Contact Ramiro Renteria">Contact</Link></h5>
                 <hr></hr>
                 <div className="myDetails">
@@ -32,6 +32,7 @@ export default function Info() {
                             <li><a href='/certificates/Ramiro Renteria-Student-ID-22324-Full Stack Web-App Development Course.pdf' target="_blank" rel="noopener noreferrer" aria-label="Full Stack Web-App Development Course Certificate">Full Stack Cert</a></li>
                             <li><a href='/certificates/Ramiro Renteria-Student-ID-22324-Front End Web-App Development Course.pdf' target="_blank" rel="noopener noreferrer" aria-label="Front End Web-App Development Course Certificate">Front End Cert</a></li>
                             <li><a href='/certificates/Ramiro Renteria-Student-ID-22324-Intro to Back-End Web-Development Module.pdf' target="_blank" rel="noopener noreferrer" aria-label="Intro to Back-End Web-Development Module Certificate">Back End Cert</a></li>
+                            <li><a href='/certificates/ResumeMostCurrent1.pdf' target="_blank" rel="noopener noreferrer" aria-label="Ramiro Renteria Resume">Resume</a></li>
                         </ul>
                     </section>
                 </div>

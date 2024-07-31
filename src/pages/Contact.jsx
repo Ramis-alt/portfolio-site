@@ -50,7 +50,7 @@ const Contact = () => {
   return (
     <div className="form--container--styling">
       {validationMsg && <div className="validation-message" aria-live='polite'>{validationMsg}</div>}
-      <h2>Get in touch</h2>
+      <h2>Get in touch!</h2>
       <form ref={form} onSubmit={sendEmail}>
         <div className="form-row">
           <label htmlFor="user_name">Name</label>
@@ -68,7 +68,7 @@ const Contact = () => {
           <label htmlFor="honeypot">Don't fill this out if you're human:</label>
           <input type="text" name="honeypot" id="honeypot" />
         </div>
-        <button type='submit'>Send</button>
+        <button type='submit' className='contact-page-button'>Send</button>
       </form>
     </div>
   )
