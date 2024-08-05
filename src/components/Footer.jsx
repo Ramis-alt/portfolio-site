@@ -22,5 +22,5 @@ export default function Footer() {
             </footer>
             <p className='back-to-top' onClick={scrollToTop} style={{cursor:'pointer'}}>Back to Top</p>
         </div>
-    )
-}
+    );
+};

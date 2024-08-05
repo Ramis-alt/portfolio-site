@@ -1,5 +1,5 @@
-import React from 'react'
-import emailjs from 'emailjs-com'
+import React from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const form = React.useRef();
@@ -17,12 +17,12 @@ const Contact = () => {
     if (!userName.trim() || !userEmail.trim() || !message.trim()) {
       setValidationMsg('Please fill in all fields.');
       return;
-    }
+    };
 
     // if (!recaptchaRef.current.getValue()) {
     //   setValidationMsg('Please verify that you are not a robot.');
     //   return;
-    // }
+    // };
 
     const formElements = e.currentTarget.elements;
     const honeypot = formElements.honeypot.value;
@@ -71,6 +71,6 @@ const Contact = () => {
         <button type='submit' className='contact-page-button'>Send</button>
       </form>
     </div>
-  )
-}
-export default Contact
+  );
+};
+export default Contact;
