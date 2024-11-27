@@ -9,7 +9,7 @@ export default function Info() {
             <img src='images/IMG_1755.png' alt="Ramiro Renteria, smiling." />
             <div className="profile-info">
                 <h1>Ramiro Renteria</h1>
-                <h4>Full Stack Web Developer</h4>
+                <h4>Junior Full Stack Web Developer</h4>
                 <h5><Link to='/contact' className='contact--edit' aria-label="Contact Ramiro Renteria">Contact</Link></h5>
                 <hr></hr>
                 <div className="myDetails">
