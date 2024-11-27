@@ -29,9 +29,9 @@ export default function Info() {
                     <section aria-labelledby="achievements-heading">
                         <h2 id="achievements-heading">Achievements</h2>
                         <ul className='cert-styling'>
-                            <li><a href='/certificates/Ramiro Renteria-Student-ID-22324-Full Stack Web-App Development Course.pdf' target="_blank" rel="noopener noreferrer" aria-label="Full Stack Web-App Development Course Certificate">Full Stack Cert</a></li>
-                            <li><a href='/certificates/Ramiro Renteria-Student-ID-22324-Front End Web-App Development Course.pdf' target="_blank" rel="noopener noreferrer" aria-label="Front End Web-App Development Course Certificate">Front End Cert</a></li>
-                            <li><a href='/certificates/Ramiro Renteria-Student-ID-22324-Intro to Back-End Web-Development Module.pdf' target="_blank" rel="noopener noreferrer" aria-label="Intro to Back-End Web-Development Module Certificate">Back End Cert</a></li>
+                            <li><a href='/certificates/Ramiro-Renteria-Student-ID-22324-Full Stack Web-App Development Course.pdf' target="_blank" rel="noopener noreferrer" aria-label="Full Stack Web-App Development Course Certificate">Full Stack Cert</a></li>
+                            <li><a href='/certificates/Ramiro-Renteria-Student-ID-22324-Front End Web-App Development Course.pdf' target="_blank" rel="noopener noreferrer" aria-label="Front End Web-App Development Course Certificate">Front End Cert</a></li>
+                            <li><a href='/certificates/Ramiro-Renteria-Student-ID-22324-Intro to Back-End Web-Development Module.pdf' target="_blank" rel="noopener noreferrer" aria-label="Intro to Back-End Web-Development Module Certificate">Back End Cert</a></li>
                             <li><a href='/certificates/ResumeMostCurrent1.pdf' target="_blank" rel="noopener noreferrer" aria-label="Ramiro Renteria Resume">Resume</a></li>
                         </ul>
                     </section>
