@@ -24,7 +24,7 @@ export default function Info() {
                     </section>
                     <section aria-labelledby="interests-heading">
                         <h2 id="interests-heading">Interests</h2>
-                        <p>New emerging technologies. Open to all kinds of music. Gamer. Outdoorsy. SciFi movie geek. 90's music. Traveling. Baseball.</p>
+                        <p>New emerging technologies. Open to all kinds of music. Gamer. Outdoorsy. SciFi movie geek. 90's music. Traveling. Baseball...</p>
                     </section>
                     <section aria-labelledby="achievements-heading">
                         <h2 id="achievements-heading">Achievements</h2>
